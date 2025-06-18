@@ -1,0 +1,48 @@
+.deals-container {
+	font-family: Arial, sans-serif;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.deals-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.sort-controls {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.deals-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.deals-table th, .deals-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.deals-table th {
+	background-color: #f2f2f2;
+}
+
+.deals-table tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.loading, .error, .no-deals {
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.error {
+	color: #d9534f;
+}
